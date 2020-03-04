@@ -1,0 +1,40 @@
+{
+  "connection": "default",
+  "collectionName": "app_jobs",
+  "info": {
+    "name": "AppJob"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "summary": {
+      "type": "text",
+      "required": true
+    },
+    "startDate": {
+      "type": "date"
+    },
+    "endDate": {
+      "type": "date"
+    },
+    "accomplishments": {
+      "type": "component",
+      "repeatable": true,
+      "component": "lists.key-accomplishments"
+    },
+    "app_company": {
+      "via": "app_jobs",
+      "model": "app-company"
+    },
+    "app_tech_skills": {
+      "via": "app_jobs",
+      "collection": "app-tech-skill"
+    }
+  }
+}

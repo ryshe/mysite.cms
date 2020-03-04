@@ -1,0 +1,34 @@
+{
+  "connection": "default",
+  "collectionName": "app_abouts",
+  "info": {
+    "name": "AppAbout"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "summary": {
+      "type": "text",
+      "required": true
+    },
+    "passions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "lists.icon-and-label"
+    }
+  }
+}

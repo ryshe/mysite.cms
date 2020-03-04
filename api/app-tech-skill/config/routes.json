@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/app-tech-skills",
+      "handler": "app-tech-skill.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/app-tech-skills/count",
+      "handler": "app-tech-skill.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/app-tech-skills/:id",
+      "handler": "app-tech-skill.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/app-tech-skills",
+      "handler": "app-tech-skill.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/app-tech-skills/:id",
+      "handler": "app-tech-skill.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/app-tech-skills/:id",
+      "handler": "app-tech-skill.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

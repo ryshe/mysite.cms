@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/app-abouts",
+      "handler": "app-about.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/app-abouts/count",
+      "handler": "app-about.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/app-abouts/:id",
+      "handler": "app-about.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/app-abouts",
+      "handler": "app-about.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/app-abouts/:id",
+      "handler": "app-about.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/app-abouts/:id",
+      "handler": "app-about.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "app_companies",
+  "info": {
+    "name": "AppCompany"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "city": {
+      "type": "string",
+      "required": true
+    },
+    "state": {
+      "type": "string",
+      "required": true
+    },
+    "app_jobs": {
+      "collection": "app-job",
+      "via": "app_company"
+    }
+  }
+}

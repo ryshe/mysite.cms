@@ -1,0 +1,15 @@
+{
+  "connection": "default",
+  "collectionName": "components_lists_key_accomplishments",
+  "info": {
+    "name": "Long Description List",
+    "icon": "list-ul"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
