@@ -1,5 +1,3 @@
-# Get Started
-
 ## Prereqs
 
 - node 10+
