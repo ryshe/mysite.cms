@@ -8,7 +8,7 @@ _last run with: **node 12.16.1, npm 6.13.7**_
 ## Run the App
 
 1. `npm install`
-2. `npm start`
+2. `npm run develop`
 
 ## Login to the CMS
 Site: [http://localhost:1337/admin](http://localhost:1337/admin)  
